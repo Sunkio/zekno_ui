@@ -1,4 +1,5 @@
-const CONTRACT_ADDRESS = '0x31c1e7515C3F4a190bd3A3821FdA61d4cDB07269';
+const CONTRACT_ADDRESS = '0xEB2572438Bb174EB60C0295534B3BbBE010ddE3b';
+const TESTNET_CHAIN_ID = '0x6357d2e0';
 
 /*
 * Add this method and make sure to export it on the bottom!
@@ -13,4 +14,4 @@ const transformCharacterData = (characterData) => {
  };
 };
 
-export { CONTRACT_ADDRESS, transformCharacterData };
+export { CONTRACT_ADDRESS, TESTNET_CHAIN_ID, transformCharacterData };
